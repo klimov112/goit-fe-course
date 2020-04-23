@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+section{
+    text-align: center;
+}
+
+
+.wrapper {
+    width: 901px;
+    margin: 0 auto;
+    min-width: 1000px;
+}
+
+
+nav {
+    margin: 0;
+}
+
+
+.site-navigation {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    list-style: none;
+    text-align: center;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin-right: 105px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+
+.site-navigation li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+.site-navigation a {
+    display: block;
+}
+
+article {
+    display: inline-block;
+    width: 421px;
+    margin-right: 60px;
+    margin-bottom: 136px;
+    text-align: left;
+}
+
+.main-content:nth-child(2n) {
+    margin-right: 0;
+}
+
+p.subtitle {
+    display: block;
+    font-family: "Ubuntu";
+    margin: 0;
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 32px;
+}   
+      
+p {
+    display: inline-block;
+    margin: 0;
+    line-height: 1.714;
+    text-align: left;
+   }
+
+.lst {
+    margin-bottom: 0;
+}
+
+.button-container{
+width: 1000px;
+height: 200px;
+}
+
+
+.button-box{
+ 
+display: block;
+font-size: 20px;
+padding: 23px 35px;
+background-color:white;
+margin: 0 auto;
+margin-top: 52px;
+margin-bottom: 78px;
+cursor: pointer;    
+
+}
+
+button a:hover,
+button a:focus {
+    color: #03a9f4;
+}
+section {
+    text-align: center;
+}
+
+
+.main-container{
+    position: relative;
+}
+
+.overlay{
+ position: absolute;
+ background-color: aqua;   
+}
