@@ -12,6 +12,7 @@ box-sizing: inherit;
 body {
 margin:0 auto;
 padding: 0;
+width: 1180px;
 }
 
 .container{
@@ -471,6 +472,11 @@ img.adcd{
   transform: translate(10px, 10px);
 }
 
+.abcd:hover,
+.abcd:focus {
+background-color: rgb(78, 198, 171);
+} 
+
 .facebook{
   width: 50px;
   height: 50px;
@@ -513,6 +519,7 @@ img.adcd{
   font-weight: 300;
   font-style: italic;
   text-align: center;
+  padding: 0 0 40px 0;
 }
 
 .h2-span::after{
@@ -525,111 +532,69 @@ img.adcd{
   margin: 0px 0 65px 0;
 }
 
-/* .footer{
-  all: unset;
-  height: 60px;
-  border: 1px solid;
-  display: flex;
-  align-items: center;  
-}
-
-p.footer{
-  font-size: 14px;
-  color: #333333;
-  font-family: "Montserrat";
-  font-weight: 400;
-  text-align: center;
-}
-
-input{
-    font-size: 14px;
-    color: #ffffff;
-    font-family: "Montserrat";
-    font-weight: 700;
-    text-align: center;
-}
-
-.your-mail{
-  font-size: 15px;
-line-height: 24px;
-color: #cccccc;
-font-family: "Roboto";
-font-weight: 300;
-font-style: italic;
-}
-.footer a{
-  color: red;
-}
-.input1{
-  width: 230px;
-height: 40px;
-background-color: #ffffff;
-border: 1px solid #e7e7e7;
-}
-
-.input2{
-  font-size: 14px;
-  color: #ffffff;
-  font-family: "Montserrat";
-  font-weight: 700;
-  text-align: center;
-}
-
-.subscribe{
-  width: 150px;
+footer {
   height: 40px;
-  background-color: #95e1d3;
-} */
-
-
-.footer{
-  all: unset;
-  height: 60px;
-  border: 1px solid;
-  display: flex;
-  align-items: center;  
+  border-top: 1px solid #e7e7e7;
+  margin:0  0 10px 0;
+  
 }
 
-.footer__rights,.footer__link { 
+.footer__wrapper {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  margin: 0 auto;
+  padding-top: 8px;
+  align-items: center;
+}
+
+.footer__lefts,
+.footer__link {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-  
-.footer__rights{
+
+.footer__lefts {
   font-size: 14px;
   color: #333333;
   text-align: center;
 }
 
 .footer__link {
-  color: red;  
+  display: flex;
+  flex: auto;
+  color: red;
 }
 
-input{
-    font-size: 14px;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    text-align: center;
+input {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
-.your-mail{
+.your-mail {
   font-size: 15px;
-line-height: 24px;
-color: #cccccc;
-font-family: "Roboto";
-font-weight: 300;
-font-style: italic;
+  line-height: 24px;
+  color: #cccccc;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  padding: 0px 0px 0px 10px;
+  text-align: left;
 }
 
-.input1{
+.input1 {
   width: 230px;
-height: 40px;
-background-color: #ffffff;
-border: 1px solid #e7e7e7;
+  height: 38px;
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  margin: 0 -4px 0 0;
+  padding: 0px 0px 0px 10px;
 }
 
-.input2{
+.input2 {
   font-size: 14px;
   color: #ffffff;
   font-family: "Montserrat";
@@ -637,8 +602,15 @@ border: 1px solid #e7e7e7;
   text-align: center;
 }
 
-.subscribe{
+.subscribe {
   width: 150px;
   height: 40px;
   background-color: #95e1d3;
+  border: none;
+}
+
+form{
+  margin:0 0 10px 0;
+  border-top: 1px;
+  display: inline-flex;
 }
