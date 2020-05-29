@@ -53,6 +53,7 @@ img {
   background-size: cover;
   height: 540px;
   background-position: center center;
+  min-width: 320px;
 }
 
 .page-header {
